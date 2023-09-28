@@ -65,7 +65,7 @@ export default function GameScreen({ userNumber, gameOverhandler }) {
       <Title>Oppenent's Guess</Title>
       <NumberContainer>{currentGuess}</NumberContainer>
       <Card>
-        <Text style={styles.textProperty}>Higher or Lower ?</Text>
+        <Text style={styles.textProperty}>Higher or Lower?</Text>
         <View style={styles.buttonContainer}>
           <View style={styles.buttonCon}>
             <PrimaryButton onPress={() => nextGuess('lower')}>-</PrimaryButton>
